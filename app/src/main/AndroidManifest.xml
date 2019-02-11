@@ -19,7 +19,7 @@
         <activity android:name=".Activity2"
                     android:parentActivityName=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.GET_CONTENT"></action>
+                <action android:name="android.intent.action.VIEW"></action>
                 <category android:name="android.intent.category.DEFAULT"/>
 
             </intent-filter>
@@ -27,7 +27,7 @@
         <activity android:name=".Activity3"
             android:parentActivityName=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.GET_CONTENT"></action>
+                <action android:name="android.intent.action.VIEW"></action>
                 <category android:name="android.intent.category.DEFAULT"/>
 
             </intent-filter>
